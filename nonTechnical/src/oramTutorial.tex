@@ -2417,11 +2417,18 @@ esta/.style={rectangle,draw=red!50,fill=green!20,thick,minimum size=7mm}]
 
 \begin{theorem}
 For any $\color{brown}\epsilon \ge 0$, any {\sf{DP-RAM}} with error probability $\color{brown}\alpha \ge 0$
-in the balls and bins model and a client that stores at most $c$ blocks must operate on
+in the BallsAndBins model and a client that stores at most $c$ blocks must operate on
 $$\color{purple}
 \Omega\left(\log_c \left(\frac{(1-\alpha) \cdot n}{e^\epsilon}\right)\right)
 $$
 records.
+
+In the non-BallsAndBins the bound is 
+$$\color{purple}
+\Omega\left(\frac{b}{w}\log \frac{nb}{c}\right)
+$$
+for any constant $\epsilon$, $\delta\leq 1/3$ and error probability $1/3$.
+
 \end{theorem}
 
 \end{frame}
