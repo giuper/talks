@@ -482,6 +482,7 @@ we have
 \begin{frame}
 \frametitle{The Hard Distribution $\color{green} \mathbf{HD}$}
 
+\ignore{
 \begin{tikzpicture}[
 level 1/.style={sibling distance=60mm,nodes={fill=red!50}},
 level 2/.style={sibling distance=30mm,nodes={fill=red!40}},
@@ -509,6 +510,7 @@ encr/.style={rectangle,draw=red!50,fill=blue!20,thick,minimum size=5mm},
 \node      at (Gi)    [right=12pt]  {$\color{red}\ldots\ldots$};
 \node (Ap) at (8,-3)   [init] {$\mathsf{A_p}$};
 \node (Gp) at (Ap)   [init,right=15pt] {$\mathsf{G_p}$};
+}
 \begin{tikzpicture}[
 every node/.style={draw=blue!50,fill=red!60,circle,inner sep=1pt,thick,minimum size=4mm},
 level 1/.style={sibling distance=60mm,nodes={fill=red!50}},
@@ -954,16 +956,4 @@ Same for $\lU$ leakage function
 \end{frame}
 
 \end{document}
-
-LU+:
-
-   Insert(k, v): leakage will consist of (k, v)
-   Query(k): query key equality (reveal all previous query operations to the same key), |EMM[k]| (length of tuple associated with key k)
-
-LQ+:
-
-   Insert(k, v): insert key equality (reveal all previous insert operations to the same key), reveal the value v
-    Query(k): Reveal queried key k and |EMM[k]| (length of tuple associated with key k)
-
-
 
