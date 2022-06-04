@@ -1,3 +1,6 @@
+* anamorphic.pdf
+    * anamorphic encryption
+    presented at Eurocrypt, Jun 3, 2022
 
 * icerm.pdf
     * lower bound on encrypted multi-maps
