@@ -1,6 +1,9 @@
-* anamorphic.pdf
-    * anamorphic encryption
+* anamorphic encryption
+    * anamorphic.pdf
     presented at Eurocrypt, Jun 3, 2022
+    
+    * readingGroup.pdf 
+    expanded version with extra results
 
 * icerm.pdf
     * lower bound on encrypted multi-maps
