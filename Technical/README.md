@@ -19,3 +19,10 @@
         * accepted to CCS 19
 
 
+* snapshot.pdf
+    * lower bound on snapshot secure ORAM
+       presented at ESSA 23 in Bertinoro, Jun 4 - 7, 2023
+
+        * https://essa23.bici.events/program
+
+        * accepted to CRYPTO 23
