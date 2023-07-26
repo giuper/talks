@@ -1,9 +1,12 @@
 * anamorphic encryption
-    * anamorphic.pdf
+    * anamorphicEC22.pdf
     presented at Eurocrypt, Jun 3, 2022
     
     * readingGroup.pdf 
     expanded version with extra results
+
+    * anamorphicPETS23.pdf
+    presented at PETS, July 14, 2023
 
 * icerm.pdf
     * lower bound on encrypted multi-maps
