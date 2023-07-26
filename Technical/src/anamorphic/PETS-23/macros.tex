@@ -1,0 +1,59 @@
+\newcommand{\from}{\leftarrow}
+\newcommand{\ignore}[1]{}
+\newcommand{\algofont}[1]{{\mathsf{#1}}}
+\newcommand{\gamefont}[1]{{\mathsf{#1}}}
+\newcommand{\objfont}[1]{{\mathtt{#1}}}
+\newcommand{\secprm}{\lambda}
+
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\calF}{\mathcal{F}}
+\newcommand{\st}{\mathtt{st}}
+
+
+\newcommand{\anamorphicPrefix}{\algofont{a}}
+\newcommand{\anamorphicPrefixObj}{\objfont{a}}
+\newcommand{\ame}{\algofont{AME}}
+\newcommand{\akg}{\anamorphicPrefix\kg} 
+\newcommand{\aenc}{\anamorphicPrefix\enc}
+\newcommand{\adec}{\anamorphicPrefix\dec}
+\newcommand{\apk}{\anamorphicPrefixObj\pk}
+\newcommand{\ask}{\anamorphicPrefixObj\sk}
+\newcommand{\dkey}{\objfont{dkey}}
+\newcommand{\act}{\anamorphicPrefixObj\ct}
+\newcommand{\amsg}{\anamorphicPrefixObj\msg}
+
+
+%%anamorphic games
+\newcommand{\RealG}{\gamefont{RealG}}             %real
+\newcommand{\AnamorphicG}{\gamefont{AnamorphicG}} %anamorphic 
+\newcommand{\Oa}{\algofont{Oa}}
+\newcommand{\Oe}{\algofont{Oe}}
+
+%algorithms for encryption schemes
+%\newcommand{\encryptionSchemeName}{\calE}
+\newcommand{\E}{\algofont{E}}
+\newcommand{\kg}{\algofont{KG}}
+\newcommand{\enc}{\algofont{Enc}}
+\newcommand{\dec}{\algofont{Dec}}
+%objects of encryption schemes
+\newcommand{\pk}{\objfont{pk}}      %public key
+\newcommand{\sk}{\objfont{sk}}      %secret key
+\newcommand{\msg}{\objfont{msg}}    %cleartext
+\newcommand{\ct}{\objfont{ct}}      %ciphertext
+
+%encryption scheme with pseudoR ciphertexts
+\newcommand{\prPrefix}{\algofont{pr}}
+\newcommand{\prObjPrefix}{\objfont{pr}}
+\newcommand{\prEname}{\prPrefix\E}
+\newcommand{\prkg}{\prPrefix\kg}
+\newcommand{\prenc}{\prPrefix\enc}
+\newcommand{\prdec}{\prPrefix\dec}
+\newcommand{\prct}{\prObjPrefix\ct}
+\newcommand{\prkey}{\prObjPrefix\objfont{K}}
+
+
+\newcommand{\rrdec}{\algofont{rr}\dec}
+
+
+\newcommand{\PameG}{\gamefont{SingleAnG}}        %private anamorphic --> single
