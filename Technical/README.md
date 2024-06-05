@@ -12,6 +12,10 @@
         presented at the NYU reading group
         August 30, 2023
 
+    * croatia.pdf
+        presented at the Summer School on real-world crypto and privacy 2024, June 2024, Vodice, Croatia
+
+
 * icerm.pdf
     * lower bound on encrypted multi-maps
     presented at  ICERM workshop on Encrypted Search, Jun 10 - 14, 2019
